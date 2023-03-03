@@ -1,3 +1,4 @@
+/* --------------------------390px------------------------- */
 .banner{
     background: var(--azul-degrade);
     color: var(--branco);
@@ -33,3 +34,21 @@
     background: url(/img-figma/Pesquisa.svg) no-repeat;
     background-position: 0.75em;
 }
+/*--------------------------------------------------------- */
+
+/* --------------------------1024px------------------------ */
+@media screen and (min-width: 1024px){
+
+    .banner__titulo{
+        font-size: 36px;
+    }
+
+    .banner__pesquisa{
+        width: 50%;
+    }
+
+    .banner__pesquisa::placeholder{
+        background-position: 7.5em;
+    }
+}
+/*--------------------------------------------------------- */

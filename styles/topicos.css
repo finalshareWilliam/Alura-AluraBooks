@@ -1,3 +1,4 @@
+/* --------------------------390px_------------------------ */
 .topicos{
     background: var(--azul-degrade);
     text-align: center;
@@ -29,3 +30,17 @@
     color: var(--branco);
     text-decoration: none;
 }
+/* -------------------------------------------------------- */
+
+/* --------------------------1024px------------------------ */
+@media screen and (min-width: 1024px){
+
+    .topicos__titulo{
+        font-size: 24px;
+    }
+
+    .topicos__link{
+        font-size: 24px;
+    }
+}
+/* -------------------------------------------------------- */
